@@ -3,6 +3,9 @@ package com.iu.home.product;
 public class ProductService {
 
 	public static void main(String[] args) {
+		// product의 productnum 모를 때, product테이블과 productoption테이블에
+		// insert 하는 과정 
+		// ProductDAO의 getProductNum() 메소드 사용
 		ProductDAO productDAO = new ProductDAO();
 		
 		ProductDTO productDTO = new ProductDTO();
